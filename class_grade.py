@@ -22,47 +22,30 @@ print message to user
 
 """
 
-# grades = []
-
-# grade = input("Enter the first grade: ")
-# grades.append(float(grade))
-
-# grade = input("Enter the second grade: ")
-# grades.append(float(grade))
-
-# grade = input("Enter the third grade: ")
-# grades.append(float(grade))
-
-# grade = input("Enter the fourth grade: ")
-# grades.append(float(grade))
-
-# grade = input("Enter the fifth grade: ")
-# grades.append(float(grade))
-
-# grades.sort()
-
-# grades = grades[2:]
-
-# grades = sum(grades)
-
-# result = grades / 3
-# print("Average Grade is {0:.2f}%".format(result))
-# print(grades, 'results', result)
-
-""""
-Code refactor using loop
-"""
-
 grades = []
 
-for i in range(5):
+grade = input("Enter the first grade: ")
+grades.append(float(grade))
 
-    grades.append(float(input("Enter the grade: ")))
+grade = input("Enter the second grade: ")
+grades.append(float(grade))
+
+grade = input("Enter the third grade: ")
+grades.append(float(grade))
+
+grade = input("Enter the fourth grade: ")
+grades.append(float(grade))
+
+grade = input("Enter the fifth grade: ")
+grades.append(float(grade))
 
 grades.sort()
-grades = sum(grades[2:]) / 3
-# grades = sum(grades)
-# result = grades / 3
 
-print("Average Grade is {0:.2f}%".format(grades))
-print(grades, 'results')
+grades = grades[2:]
+
+grades = sum(grades)
+
+result = grades / 3
+print("Average Grade is {0:.2f}%".format(result))
+print(grades, 'results', result)
+
