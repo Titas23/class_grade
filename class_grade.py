@@ -48,3 +48,4 @@ grades = sum(grades)
 result = grades / 3
 print("Average Grade is {0:.2f}%".format(result))
 print(grades, 'results', result)
+
